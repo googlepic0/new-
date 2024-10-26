@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    background-color: #848;
+    height:100vh;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+}
+#main button{
+    border: none;
+    padding: 10px 30px;
+}
+#main input{
+    border:none;
+    padding: 10px 30px;
+    text-align: center;
+}
+#main button{
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#main button:nth-child(1){
+    border-top-left-radius: 10px;
+}
+#main button:nth-child(3){
+    border-bottom-right-radius: 10px;
+}
+
+
+/* ==============COLOR START=================== */
+#clr{
+    background-color: #9384;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clr button{
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#clr button:hover{
+    background-color: rgba(255, 99, 71, 0.838);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+
+/* ===============COLOR END===================== */
